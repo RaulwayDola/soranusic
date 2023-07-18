@@ -60,11 +60,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴩʟᴀʏʟɪsᴛ ✯",
+                text="💡 ᴘʟᴀʏʟɪsᴛ",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="✯ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"https://t.me/NOOBCREATOR")
+                text="ᴜᴘᴅᴀᴛᴇs 📨", url=f"https://t.me/NOOBxCREATOR")
         ],
         [
             InlineKeyboardButton(
@@ -113,11 +113,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴩʟᴀʏʟɪsᴛ ✯",
+                text="💡 ᴘʟᴀʏʟɪsᴛ",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="✯ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"https://t.me/NOOBCREATOR"
+                text="ᴜᴘᴅᴀᴛᴇs 📨", url=f"https://t.me/NOOBxCREATOR"
             )
         ],
         [
@@ -320,12 +320,12 @@ def panel_markup_1(_, videoid, chat_id):
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="↻ ʟᴏᴏᴩ ↻", callback_data=f"ADMIN Loop|{chat_id}"
+                text=" ʟᴏᴏᴩ ", callback_data=f"ADMIN Loop|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="↻ ʙᴀᴄᴋ ↻",
+                text=" ʙᴀᴄᴋ ",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
         ],
@@ -366,11 +366,11 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴩʟᴀʏʟɪsᴛ ✯",
+                text="💡 ᴩʟᴀʏʟɪsᴛ",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="✯ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"https://t.me/NOOBCREATOR"
+                text="ᴜᴘᴅᴀᴛᴇs 📨", url=f"https://t.me/NOOBxCREATOR"
             )
         ],
         [
