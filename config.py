@@ -7,13 +7,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "27370260"))
+API_HASH = getenv("API_HASH", "3d414789f6fb615cc48341b12c624c22")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5662659781:AAEo-feRH2XoUq4glvCS8-HqdapjSsEeIpk")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://userbot:userbot@cluster0.x6kstu2.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001246079685"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Dora")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5656382791").split()))
@@ -21,7 +21,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "5656382791").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/VivekNoobOp/NewThumb")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/RaulwayDola/Railwaydora")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -58,8 +58,8 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
+STRING1 = getenv("STRING_SESSION", "BQCf7zcJSUaRdQiwe2tEZc8ZzB3_t54waf1a1FJTRbh8MavuAdhTcwDequrF_n_qValW30nYGkQBfXBverwNDa5gFO80Fz2F4DoE_sHH_B49z1I1d56-h0xJGDYMfYkqNkFrcgHqSzbi2EnA731LDfimUwpLg-XVC2826WXMTfDbz8MUP5P6KTtFopss5xf2EM85bUORUk-0hL-qPbdDPz3TLcdvHeQbdIOyRFSRq7ut-yj82uhvo7hDMI5c65YpfuY2062ztbzN5m-YsIXocbrC5aRWvI_w7YdyNe5nvr86zvRE_-podj_pShrdcHdwvMN4AuzXCCgS1IbdmnrzZQnQAAAAAVTmnuwA")
+STRING2 = getenv("STRING_SESSION2", "BQDApNzYRZ1GIJCLxMaDaOiA2rDlXlDiFbOSaSe2S8taxQAUA_pdF2M_TPXx1Ar5L8xJIw2vWWdEO_REMR5b2nqg2xxp0BSb2Vl8lAT0Cvy8oZTGNKBKPuHeG36VvQw6lxGCiblcYYA05M9UZt2VbuXkphNPcqXCqt7IqPuEgdgzuqA73R3Wwi8BGP5qXebO7asRMzxODWpBEVpOM2LXHkC3G0pZUnSZ7oIvtFnNGnkjAfTYK3W0O1NL2z68n9RAqiub29meoF3Vq70tXoUkmSjslEeLKsd2ldQe7d21MK5aCJFfUcPdJsfulaR9W2EBPXBniwQZWZB0ddBLuO7feGbVAAAAAVsgKWcA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -136,3 +136,4 @@ if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
             START_IMG_URL = "https://te.legra.ph/file/5b7d5f34f7b174e05d447.jpg"
+            
